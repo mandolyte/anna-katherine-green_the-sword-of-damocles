@@ -135,7 +135,6 @@ p span.i1{
 }
 /* End poetry */
 
-
 .continued{
 	text-indent: 0;
 }
@@ -238,3 +237,8 @@ section[epub|type~="z3998:scene"] > p{
 	}
 }
 /* End drama */
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
