@@ -134,6 +134,11 @@ p span.i1{
 	text-indent: -1em;
 }
 
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
 p span.i4{
 	padding-left: 5em;
 	text-indent: -1em;
@@ -149,6 +154,10 @@ p span.i8{
 	text-indent: -1em;
 }
 
+p span.i12{
+	padding-left: 13em;
+	text-indent: -1em;
+}
 /* End poetry */
 
 .continued{
