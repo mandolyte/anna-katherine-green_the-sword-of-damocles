@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/anna-katherine-green/the-sword-of-damocles</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
+		<dc:date>1881-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -29,28 +29,33 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Sword of Damocles</dc:title>
 		<meta property="file-as" refines="#title">Sword of Damocles, The</meta>
+        <dc:title id="subtitle">A Story of New York Life</dc:title>
+        <meta property="file-as" refines="#subtitle">Story of New York Life, A</meta>
+        <meta property="title-type" refines="#subtitle">subtitle</meta>
+        <dc:title id="fulltitle">The Sword of Damocles: A Story of New York Life</dc:title>
+        <meta property="file-as" refines="#fulltitle">Sword of Damocles, The</meta>
+        <meta property="title-type" refines="#fulltitle">extended</meta>        
 		<dc:subject id="subject-1">New York (N.Y.) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCHS</meta>
 		<meta property="term" refines="#subject-1">sh2008108377</meta>
 		<dc:subject id="subject-2">Detective and mystery stories</dc:subject>
 		<meta property="authority" refines="#subject-2">LCHS</meta>
 		<meta property="term" refines="#subject-2">sh85037260</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/33301</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/swordofdamocless00greeiala</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Sword_of_Damocles</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anna-katherine-green_the-sword-of-damocles</meta>
 		<dc:creator id="author">Anna Katherine Green</dc:creator>
 		<meta property="file-as" refines="#author">Green, Anna Katherine</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Anna Katherine Green</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anna_Katherine_Green</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50046883</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -69,9 +74,8 @@
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Cecil New</dc:contributor>
+		<meta property="file-as" refines="#producer-1">New, Cecil</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
